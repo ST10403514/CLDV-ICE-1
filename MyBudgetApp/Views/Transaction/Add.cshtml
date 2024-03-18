@@ -1,0 +1,28 @@
+﻿@model MyBudgetApp.Models.Transaction
+
+<form asp-action="Add" method="post">
+    <div class="form-group">
+        <label>Type:</label>
+        <select asp-for="Type" class="form-control">
+            <option value="Income">Income</option>
+            <option value="Expense">Expense</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Amount:</label>
+        <input asp-for="Amount" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Date:</label>
+        <input asp-for="Date" class="form-control" type="date" />
+    </div>
+    <div class="form-group">
+        <label>Description:</label>
+        <input asp-for="Description" class="form-control" />
+    </div>
+    <div class="form-group" style="margin-bottom: 20px;"> 
+        <label>Category:</label>
+        <input asp-for="Category" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Add Transaction</button>
+</form>

@@ -1,0 +1,7 @@
+C:\Users\mason\source\repos\MyBudgetApp\obj\Release\net8.0\PubTmp\Out\MyBudgetApp.exe
+C:\Users\mason\source\repos\MyBudgetApp\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\mason\source\repos\MyBudgetApp\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\mason\source\repos\MyBudgetApp\obj\Release\net8.0\PubTmp\Out\MyBudgetApp.dll
+C:\Users\mason\source\repos\MyBudgetApp\obj\Release\net8.0\PubTmp\Out\MyBudgetApp.deps.json
+C:\Users\mason\source\repos\MyBudgetApp\obj\Release\net8.0\PubTmp\Out\MyBudgetApp.runtimeconfig.json
+C:\Users\mason\source\repos\MyBudgetApp\obj\Release\net8.0\PubTmp\Out\MyBudgetApp.pdb

@@ -1,0 +1,31 @@
+﻿@model List<MyBudgetApp.Models.Transaction>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Type</th>
+            <th>Amount</th>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Category</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var transaction in Model)
+        {
+            <tr>
+                <td>@transaction.Type</td>
+                <td>@transaction.Amount</td>
+                <td>@transaction.Date</td>
+                <td>@transaction.Description</td>
+                <td>@transaction.Category</td>
+            </tr>
+        }
+
+        
+        <tr>
+            <td colspan="4"><strong>Total</strong></td>
+            <td>@ViewData["Total"]</td> <!-- Display total -->
+        </tr>
+    </tbody>
+</table>
